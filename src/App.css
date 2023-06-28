@@ -25,19 +25,12 @@
 .area {
 	flex: 1;
 	min-height: 100%;
+	padding: 20px;
 }
 
 .previewer {
 	flex: 1;
 	min-height: 100%;
-	background-color: white;
 	padding: 20px;
-}
-
-.previewer__title {
-	font-size: 2rem;
-	font-weight: bold;
-	color: #2c0f83;
-	text-align: center;
-	margin-bottom: 30px;
+	background-color: white;
 }
