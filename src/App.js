@@ -33,7 +33,7 @@ function App() {
           value={valueArea}
           onChange={handleChange}
         />
-        <code className='previewer' dangerouslySetInnerHTML={{__html: markdownPreview}} ></code>
+        <div className='previewer' dangerouslySetInnerHTML={{__html: markdownPreview}} ></div>
       </main>
 
     </div>
