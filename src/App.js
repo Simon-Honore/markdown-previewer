@@ -29,7 +29,6 @@ function App() {
           className='area' 
           name="area-markdown" 
           id="area-markdown" 
-          // defaultValue={defaultValueArea}
           value={valueArea}
           onChange={handleChange}
         />
